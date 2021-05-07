@@ -18,5 +18,5 @@ for k, v in cadastro.items():
 print(f"O jogador {cadastro['nome']} jogou {total_partidas} partidas.")
 
 for i, v in enumerate(gol):
-    print(f"\t=> Na partida {i+1}, fez {3} gols.")
+    print(f"\t=> Na partida {i+1}, fez {v} gols.")
 print(f"Foi um total de {cadastro['total']} gols.")
